@@ -3,7 +3,7 @@ class Appointment
 
   @@all = []
 
-  def initialize(date, doctor, patient)
+  def initialize(date, patient, doctor)
     @date = date
     @doctor = doctor
     @patient = patient
